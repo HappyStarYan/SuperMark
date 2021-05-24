@@ -34,7 +34,7 @@
         // /home -> item1(/category) = false
         // /home -> item1(/cart) = true
         // /home -> item1(/profile) = true
-        console.log("aa")
+        // console.log("aa")
         return this.$route.path.indexOf(this.path) !== -1
       },
       activeStyle() {
@@ -50,18 +50,18 @@
 </script>
 
 <style scoped>
-  .tab-bar-item {
-    flex: 1;
-    text-align: center;
-    height: 49px;
-    font-size: 14px;
-  }
+    .tab-bar-item {
+        flex: 1;
+        text-align: center;
+        height: 49px;
+        font-size: 14px;
+    }
 
-  .tab-bar-item img {
-    width: 24px;
-    height: 24px;
-    margin-top: 3px;
-    vertical-align: middle;
-    margin-bottom: 2px;
-  }
+    .tab-bar-item img {
+        width: 24px;
+        height: 24px;
+        margin-top: 3px;
+        vertical-align: middle;
+        margin-bottom: 2px;
+    }
 </style>
